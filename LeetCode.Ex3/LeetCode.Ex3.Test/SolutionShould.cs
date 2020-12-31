@@ -10,6 +10,8 @@ namespace LeetCode.Ex3.Test
         [InlineData("bbbbb", 1)]
         [InlineData("pwwkew", 3)]
         [InlineData("", 0)]
+        [InlineData(" ", 1)]
+        [InlineData("b", 1)]
         public void ShouldReturnCorrectResultWhenSolutionExists(string input, int expectedOutput)
         {
             // Act
